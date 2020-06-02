@@ -5,7 +5,7 @@ var modala = document.getElementById("modalreserva");
 var btna = document.getElementById("reservabtn");
 
 // Get the <span> element that closes the modal
-var spana = document.getElementsByClassName("cerrar")[0];
+var spana = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
 btna.onclick = function() {

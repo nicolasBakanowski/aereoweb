@@ -16,7 +16,7 @@
 <body>
   <!--clase navbar de boostrap-->
   <div class="nav-home">
-    <nav class="navbar navbar-light bg-dark shadow"> 
+    <nav class="navbar navbar-light bg-primary"> 
       <div class ="d-flex">
         <a href="#"><img id="logo_img" src="images/logo.png"></a>
         <h4 class="text-light my-auto">Rio Cuarto</h4>
@@ -48,7 +48,7 @@
     </div>
   </div>  
   <!-- services  -->
-  <div class="bg-secondary p-5 shadow">
+  <div class="bg-secondary p-5">
     <div class="row p-5 text-center">
       <div class="col-lg-4">
         <div class="shadow card bg-secondary mx-auto" style="width: 18rem;" >
@@ -88,7 +88,7 @@
   <div id="myModal" class="modal">
     <!-- Modal content -->
     <div class="modal-content modal-sm">
-      <span class="close"><i class="fas fa-window-close"></i></span>
+      <span class="close"style="margin-left: 226px";>&times;</i></span>
       <div class="container login-container">
         <div class="row">
           <div class="col-md login-form-1">
@@ -103,7 +103,7 @@
               <input type="submit" class="btnSubmit" value="Iniciar session" />
             </div>
             <div class="form-group">
-              <a href="#" class="btnForgetPwd">Registrate aca</a>
+              <a href="#" class="btnForgetPwd">Forget Password?</a>
             </div>       
           </div>
         </div>
@@ -111,19 +111,18 @@
     </div>
   </div>
   <!--sad-->
-  <div id= "modalreserva"  class="modal">
-    <div class = "modal-content modal-lg bg-dark">
-      <span class="cerrar"><i class="fas fa-window-close"></i></span>
+  <div id= "modalreserva" class="modal">
+    <div class = "modal-content modal-lg">
+      <span class="close"style="margin-left: 727px";>&times;</i></span>
       <div class="col-md login-form-1">   
         <form style="align-content: center">
   			  <div class="form-group">
-  		    	<label class='text-light' for="exampleFormControlInput1">Dirección de Email</label>
+  		    	<label for="exampleFormControlInput1">Dirección de Email</label>
   		    	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   		  	</div>
   		  	<div class="form-group">
-  		    	<label class = 'text-light' for="exampleFormControlSelect1">Destino</label>
+  		    	<label for="exampleFormControlSelect1">Destino</label>
   		    	<select class="form-control" id="exampleFormControlSelect1">
-              <option>elegi tu destino</option>
   			      <option>Villa Mercedes</option>
   			      <option>Las Higueras</option>
   			      <option>Egipto</option>
@@ -132,7 +131,7 @@
   			    </select>
   		  	</div>
   		  	<div class="form-group">
-  		    	<label class = text-light for="exampleFormControlSelect2">cantidad de pasajeros</label>
+  		    	<label for="exampleFormControlSelect2">Habitaciones</label>
   		    	<select multiple class="form-control" id="exampleFormControlSelect2">
   			      	<option>1</option>
   			      	<option>2</option>
@@ -144,8 +143,8 @@
         </form>
       </div>
      <div class="modal-footer">
-        <button type="button" class="btn btn-light"><a href="compraExitosa.html" target="">Realizar Compra</a></button>
-        </div>
+        <button type="button" class="btn close" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary"><a href="compraExitosa.html" target="_blank" style="color:white">Realizar Compra</a></button>
       </div>
     </div>
   </div>
