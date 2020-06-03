@@ -84,12 +84,12 @@
 .bordeNegro {
     border-style: solid;
     border-color: black;
-    border
+    
 }
-    .faqHeader {
-        font-size: 27px;
-        margin: 20px;
-    }
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
 
     .panel-heading [data-toggle="collapse"]:after {
         font-family: 'Glyphicons Halflings';
@@ -115,3 +115,5 @@
         transform: rotate(90deg);
         color: #454444;
     }
+
+    
